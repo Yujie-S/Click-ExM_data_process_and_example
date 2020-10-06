@@ -10,7 +10,7 @@ All dependencies (`registerImages.m`, `nr_registerImages.m`, `RMSE_cal.m`, and `
 
 ## Description of the method
 #### Rigid registration and expansion factor calculation
-The pre-expansion images were first stretched by a scaling factor *F<sub>esti</sub>* of 3.8~4.3 with bicubic interpolation to approximately 
+The pre-expansion images were first stretched by a scaling factor *F<sub>esti</sub>* of 3.8~4.5 with bicubic interpolation to approximately 
 match the scale of the post-expansion images. 
 This estimated expansion factor was decided based on the macroscopic measurement of gel size. 
 The stretched pre-expansion image was used as the ‘fixed image’ for rigid registration, and the post-expansion images as the ‘moving image’. 
@@ -29,5 +29,25 @@ RMSE was quantified by calculating the difference of distance between each pair 
 and plotted as a function of the distance between the matching features.
 
 ## Instruction for use
-1. Download the 
-2. 
+1. Download all files into a same folder.
+2. Run scirpt `Process_click_EXM.m` in Matlab. This will process the included example files `pre_Click_ExM_tubulin.tif` and `post_Click_ExM_tubulin.tif` included in this folder.
+3. The rigid registration and non-rigid registration will finish automatically.
+4. Select a small region to calculate RMS error when prompted.
+5. Wait for RMSE calculation (may take a long time if a large region is selected). A "Process finished" message box will show up when all calculations are finished.
+6. All results will be written into a newly created folder called `processed_data`
+
+## Explanation of expected output
+There will be five `.svg` files and four `.xlsx` files in the newly created `precessed_data` folder:
+##### the `.svg` files shows registration results:
+* `(i) compare pre and post (registered).svg` shows the rigid-registered post-ExM image and the original pre-ExM image;
+* `(ii) rigid registration and exp fac.svg` merges the rigid-registered post-ExM image with the pre-ExM image; the estimated and corrected expansion factors are shown in the title;
+* `(iii) non-rigid registration and distortion field.svg` shows the post-ExM image before and after non-rigid registration and the distortion field;
+* `(iv) Cropped area for RMSE analysis (Distortion field).svg` shows the cropped area for RMSE analysis selected manually by the user;
+* `(v) RMSE plot.svg` shows the RMSE plot, with mean value &plusmn; standard deviation.
+##### the `.xlsx` files saves RMSE related values, which can be used to make RMSE plot using other softwares
+* `RMSE mean.xlsx` is the calculated mean RMSE value
+* `RMSE mean+std.xlsx` is the calculated mean RMSE value + standard deviation
+* `RMSE mean-std.xlsx` is the calculated mean RMSE value - standard deviation
+* `RMSE measurement_length.xlsx` is the measurement lengths correlated to the mean RMSE values
+
+
