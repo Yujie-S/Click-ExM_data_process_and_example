@@ -32,7 +32,7 @@ and plotted as a function of the distance between the matching features. The cal
 1. Download all files into a same folder.
 2. Run scirpt `Process_click_ExM.m` in Matlab. This will process the included example files `pre_Click_ExM_tubulin.tif` and `post_Click_ExM_tubulin.tif` included in this folder.
 3. The rigid registration and non-rigid registration will finish automatically.
-4. Select a small region to calculate RMS error when prompted.
+4. Select a small region to calculate RMS error when prompted (Use your mouse to draw a square on the figure, double click the selected region when finished).
 5. Wait for RMSE calculation (may take a long time if a large region is selected). A "Process finished" message box will show up when all calculations are finished.
 6. All results will be written into a newly created folder called `processed_data`
 
