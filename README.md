@@ -29,4 +29,5 @@ RMSE was quantified by calculating the difference of distance between each pair 
 and plotted as a function of the distance between the matching features.
 
 ## Instruction for use
-- Download the 
+1. Download the 
+2. 
