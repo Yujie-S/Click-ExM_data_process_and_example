@@ -45,9 +45,9 @@ and plotted as a function of the distance between the matching features.
 * `(iv) Cropped area for RMSE analysis (Distortion field).svg` shows the cropped area for RMSE analysis selected manually by the user;
 * `(v) RMSE plot.svg` shows the RMSE plot, with mean value &plusmn; standard deviation.
 ##### The `.xlsx` files saves RMSE related values, which can be used to make RMSE plot using other softwares
-* `RMSE mean.xlsx` is the calculated mean RMSE value
-* `RMSE mean+std.xlsx` is the calculated mean RMSE value + standard deviation
-* `RMSE mean-std.xlsx` is the calculated mean RMSE value - standard deviation
-* `RMSE measurement_length.xlsx` is the measurement lengths correlated to the mean RMSE values
+- `RMSE mean.xlsx` is the calculated mean RMSE value
+- `RMSE mean+std.xlsx` is the calculated mean RMSE value + standard deviation
+- `RMSE mean-std.xlsx` is the calculated mean RMSE value - standard deviation
+- `RMSE measurement_length.xlsx` is the measurement lengths correlated to the mean RMSE values
 
 
