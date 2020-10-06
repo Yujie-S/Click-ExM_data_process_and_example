@@ -37,7 +37,7 @@ and plotted as a function of the distance between the matching features. The cal
 6. All results will be written into a newly created folder called `processed_data`
 
 ## Explanation of expected output
-##### There will be five `.svg` files and four `.xlsx` files in the newly created `precessed_data` folder:
+##### There will be five `.svg` files and four `.xlsx` files in the newly created `prcessed_data` folder:
 ##### The `.svg` files shows registration results:
 * `(i) compare pre and post (registered).svg` shows the rigid-registered post-ExM image and the original pre-ExM image;
 * `(ii) rigid registration and exp fac.svg` merges the rigid-registered post-ExM image with the pre-ExM image; the estimated and corrected expansion factors are shown in the title;
