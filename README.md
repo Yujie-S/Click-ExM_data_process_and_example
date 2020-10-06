@@ -6,7 +6,7 @@ Uploaded and last edited by Yujie Shi (yujieshi@scripps.edu) Oct-06-2020.
 ## Introduction
 The script `Process_click_EXM.m` in this repo is created for expansion microscopy data processing. This includes rigid registration, calculation of expansion factor, 
 B-spline non-rigid registration, calculation of distortion field and RMS error. For detailed explanation of the code, see the annotations inside the script. 
-All dependencies (`registerImages.m`, `nr_registerImages.m`, `RMSE_cal.m`, and `RMSE_MS.m`) are included in this repo. The code was written and used under *Matlab R2018a*.
+All dependencies (`registerImages.m`, `nr_registerImages.m`, `RMSE_cal.m`, and `RMSE_MS.m`) are included in this repo. The code was written and used under *Matlab R2018a* on Windows 10 system.
 
 ## Description of the method
 #### Rigid registration and expansion factor calculation
