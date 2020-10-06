@@ -37,14 +37,14 @@ and plotted as a function of the distance between the matching features.
 6. All results will be written into a newly created folder called `processed_data`
 
 ## Explanation of expected output
-There will be five `.svg` files and four `.xlsx` files in the newly created `precessed_data` folder:
-##### the `.svg` files shows registration results:
+##### There will be five `.svg` files and four `.xlsx` files in the newly created `precessed_data` folder:
+##### The `.svg` files shows registration results:
 * `(i) compare pre and post (registered).svg` shows the rigid-registered post-ExM image and the original pre-ExM image;
 * `(ii) rigid registration and exp fac.svg` merges the rigid-registered post-ExM image with the pre-ExM image; the estimated and corrected expansion factors are shown in the title;
 * `(iii) non-rigid registration and distortion field.svg` shows the post-ExM image before and after non-rigid registration and the distortion field;
 * `(iv) Cropped area for RMSE analysis (Distortion field).svg` shows the cropped area for RMSE analysis selected manually by the user;
 * `(v) RMSE plot.svg` shows the RMSE plot, with mean value &plusmn; standard deviation.
-##### the `.xlsx` files saves RMSE related values, which can be used to make RMSE plot using other softwares
+##### The `.xlsx` files saves RMSE related values, which can be used to make RMSE plot using other softwares
 * `RMSE mean.xlsx` is the calculated mean RMSE value
 * `RMSE mean+std.xlsx` is the calculated mean RMSE value + standard deviation
 * `RMSE mean-std.xlsx` is the calculated mean RMSE value - standard deviation
