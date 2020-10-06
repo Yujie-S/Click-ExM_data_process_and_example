@@ -1,7 +1,7 @@
 # Click-ExM data process and example
 Matlab code and example files for manuscript *Click-ExM enables expansion microscopy for all biomolecules, by De-en Sun, et al*.
 
-Last edited by Yujie Shi (yujieshi@scripps.edu) Oct-06-2020.
+Uploaded and last edited by Yujie Shi (yujieshi@scripps.edu) Oct-06-2020.
 
 ## Introduction
 The script `Process_click_EXM.m` in this repo is created for expansion microscopy data processing. This includes rigid registration, calculation of expansion factor, 
