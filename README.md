@@ -26,7 +26,7 @@ To exclude regions with no features, masks of the rigid registered pre- and post
 The displacement field and B-spline registered images were then acquired with the `imregdemons` function, 
 and the distortion vector field was visualized with the `quiver` function. 
 RMSE was quantified by calculating the difference of distance between each pair of matching features before and after B-spline registration, 
-and plotted as a function of the distance between the matching features.
+and plotted as a function of the distance between the matching features. The calculated RMSE-to-measurement length curve was smoothed for better visualization.
 
 ## Instruction for use
 1. Download all files into a same folder.
