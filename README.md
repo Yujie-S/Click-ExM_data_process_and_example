@@ -10,7 +10,7 @@ All dependencies (`registerImages.m`, `nr_registerImages.m`, `RMSE_cal.m`, and `
 
 ## Description of the method
 #### Rigid registration and expansion factor calculation
-The pre-expansion images were first stretched by a scaling factor *F<sub>esti</sub>* of 3.8~4.5 with bicubic interpolation to approximately 
+The pre-expansion images were first stretched by a scaling factor *F<sub>esti</sub>* of 3.8~4.8 with bicubic interpolation to approximately 
 match the scale of the post-expansion images. 
 This estimated expansion factor was decided based on the macroscopic measurement of gel size. 
 The stretched pre-expansion image was used as the ‘fixed image’ for rigid registration, and the post-expansion images as the ‘moving image’. 
